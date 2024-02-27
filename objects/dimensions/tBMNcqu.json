@@ -1,0 +1,25 @@
+{
+  "qInfo": {
+    "qId": "tBMNcqu",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "unidades_centrales"
+    ],
+    "qFieldLabels": [
+      "unidades_centrales"
+    ],
+    "qLabelExpression": "='Unidad Central'",
+    "title": "unidades_centrales",
+    "coloring": {
+      "changeHash": "0.1865326124548694"
+    }
+  },
+  "qMetaDef": {
+    "title": "unidades_centrales",
+    "description": "",
+    "tags": []
+  }
+}

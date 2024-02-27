@@ -1,0 +1,35 @@
+{
+  "qInfo": {
+    "qId": "XfXrkK",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Provisión Total (MW) - PID",
+    "qDef": "SUM(\t$(=    \tIF(GetSelectedCount(Año)=0 AND GetSelectedCount(Mes)=0 AND GetSelectedCount(barra_centrales) = 0 AND GetSelectedCount(Fecha) = 0 AND GetSelectedCount(Fecha_Efectiva)=0 AND GetSelectedCount(fecha_version)=0 AND GetSelectedCount(fecha_hora_version)=0 OR GetPossibleCount(fecha_hora_version)=2,    \tvUltimaFechaPID,''    \t)    )cantidad_mw)",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qLabelExpression": "='Provisión Total (MW) - PID'",
+    "qNumFormat": {
+      "qType": "F",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qFmt": "#,##0",
+      "qDec": ".",
+      "qThou": ","
+    },
+    "numFormatFromTemplate": false,
+    "coloring": {
+      "baseColor": {
+        "color": "#006580",
+        "index": 6
+      }
+    },
+    "isCustomFormatted": false
+  },
+  "qMetaDef": {
+    "title": "Provisión Total (MW) - PID",
+    "description": "",
+    "tags": []
+  }
+}

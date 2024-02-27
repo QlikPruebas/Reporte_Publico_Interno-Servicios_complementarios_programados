@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "ac4ebcff-7ccd-47f7-9816-8cd080b9f4c0",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vUltimaFechaComparacion",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "{<SSCC_SERVICIO = {'CPF (-)'}, Fecha = {\"$(=MAX({<fuente = {'PID'}>}Fecha))\"}>}",
+  "tags": []
+}

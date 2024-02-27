@@ -1,0 +1,26 @@
+{
+  "qInfo": {
+    "qId": "0726162a-6600-4722-98e0-65f079bacba3",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "pais"
+    ],
+    "qFieldLabels": [
+      "pais"
+    ],
+    "qLabelExpression": "='Pais'",
+    "title": "pais",
+    "coloring": {
+      "colorMapRef": "tBMNcqu",
+      "changeHash": "0.8935012086204064"
+    }
+  },
+  "qMetaDef": {
+    "title": "pais",
+    "description": "",
+    "tags": []
+  }
+}

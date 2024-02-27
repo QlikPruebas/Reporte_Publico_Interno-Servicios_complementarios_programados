@@ -1,0 +1,26 @@
+{
+  "qInfo": {
+    "qId": "5e7f910f-d111-4d52-b511-e96fd993dcce",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "terminal_gnl"
+    ],
+    "qFieldLabels": [
+      "terminal_gnl"
+    ],
+    "qLabelExpression": "='Terminal'",
+    "title": "terminal_gnl",
+    "coloring": {
+      "colorMapRef": "tBMNcqu",
+      "changeHash": "0.5673962556288985"
+    }
+  },
+  "qMetaDef": {
+    "title": "terminal_gnl",
+    "description": "",
+    "tags": []
+  }
+}

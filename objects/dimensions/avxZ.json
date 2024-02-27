@@ -1,0 +1,25 @@
+{
+  "qInfo": {
+    "qId": "avxZ",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "Semana"
+    ],
+    "qFieldLabels": [
+      "Semana"
+    ],
+    "qLabelExpression": "='Semana'",
+    "title": "Semana",
+    "coloring": {
+      "changeHash": "0.693756099331881"
+    }
+  },
+  "qMetaDef": {
+    "title": "Semana",
+    "description": "",
+    "tags": []
+  }
+}

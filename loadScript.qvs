@@ -1,0 +1,76 @@
+///$tab Main
+SET ThousandSep=',';
+SET DecimalSep='.';
+SET MoneyThousandSep='.';
+SET MoneyDecimalSep=',';
+SET MoneyFormat='$#.##0;$-#.##0';
+SET TimeFormat='hh:mm:ss';
+SET DateFormat='YYYY-MM-DD';
+SET TimestampFormat='YYYY-MM-DD hh:mm[.fff]';
+SET FirstWeekDay=0;
+SET BrokenWeeks=1;
+SET ReferenceDay=0;
+SET FirstMonthOfYear=1;
+SET CollationLocale='es-CL';
+SET CreateSearchIndexOnReload=1;
+SET MonthNames='Ene;Feb;Mar;Abr;May;Jun;Jul;Ago;Sep;Oct;Nov;Dic';
+SET LongMonthNames='Enero;Febrero;Marzo;Abril;Mayo;Junio;Julio;Agosto;Septiembre;Octubre;Noviembre;Diciembre';
+SET DayNames='lun.;mar.;mié.;jue.;vie.;sáb.;dom.';
+SET LongDayNames='lunes;martes;miércoles;jueves;viernes;sábado;domingo';
+SET NumericalAbbreviation='3:k;6:M;9:G;12:T;15:P;18:E;21:Z;24:Y;-3:m;-6:μ;-9:n;-12:p;-15:f;-18:a;-21:z;-24:y';
+///$tab SSCC
+SERVICIOS_COMPLEMENTARIOS:
+LOAD
+    %KEY_BLOQUE_FUENTE_VERSION,
+    AutoNumber(%KEY_DICCIONARIO_CENTRALES)	AS %KEY_DICCIONARIO_CENTRALES,
+    %KEY_DICCIONARIO_CENTRALES				AS Diccionario,
+    Fecha_Hora,
+    Fecha_Efectiva,
+    Fecha,
+    AñoMesNum,
+    MesAño,
+    Mes,
+    Año,
+    Semana,
+    Dia,
+    Hora,
+    SSCC_SERVICIO,
+    SSCC_SERVICIO_DESC,
+    provision_mw	                         AS cantidad_mw,
+    fuente,
+    fecha_version,
+    fecha_hora_version,
+    numero_version
+FROM [lib://STG/PLATAFORMA PROGRAMACION/STG_PRG_SERVICIOS_COMPLEMENTARIOS.qvd]
+(qvd);
+
+
+
+///$tab DIM CENTRALES
+DIM_CENTRALES:
+LOAD
+    AutoNumber(%KEY_DICCIONARIO_CENTRALES)	AS %KEY_DICCIONARIO_CENTRALES,
+    barra_centrales,
+    id_central_it,
+    tecnologia,
+    sub_tipo_tecnologia,
+    combustible,
+    nombre_central,
+    unidades_centrales,
+    arreglo,
+    configuracion,
+    bloque_centrales,
+    almacenamiento,
+    ficticia,
+    terminal_gnl,
+    clasificacion,
+    empresa,
+    pais,
+    origen_diccionario,
+    zona,
+    region,
+    comuna,
+    cuenca
+FROM [lib://STG/PLATAFORMA PROGRAMACION/STG_PRG_DIM_CENTRALES.qvd]
+(qvd);
+

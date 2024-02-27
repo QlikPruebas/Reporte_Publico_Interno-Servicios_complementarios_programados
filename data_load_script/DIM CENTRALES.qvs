@@ -1,0 +1,27 @@
+///$tab DIM CENTRALES
+DIM_CENTRALES:
+LOAD
+    AutoNumber(%KEY_DICCIONARIO_CENTRALES)	AS %KEY_DICCIONARIO_CENTRALES,
+    barra_centrales,
+    id_central_it,
+    tecnologia,
+    sub_tipo_tecnologia,
+    combustible,
+    nombre_central,
+    unidades_centrales,
+    arreglo,
+    configuracion,
+    bloque_centrales,
+    almacenamiento,
+    ficticia,
+    terminal_gnl,
+    clasificacion,
+    empresa,
+    pais,
+    origen_diccionario,
+    zona,
+    region,
+    comuna,
+    cuenca
+FROM [lib://STG/PLATAFORMA PROGRAMACION/STG_PRG_DIM_CENTRALES.qvd]
+(qvd);

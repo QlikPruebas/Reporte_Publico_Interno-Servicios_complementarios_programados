@@ -1,0 +1,26 @@
+{
+  "qInfo": {
+    "qId": "9a4468f2-cd2c-40e6-b45b-8d04c6fe28ea",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "cuenca"
+    ],
+    "qFieldLabels": [
+      "cuenca"
+    ],
+    "qLabelExpression": "='Cuenca'",
+    "title": "cuenca",
+    "coloring": {
+      "colorMapRef": "tBMNcqu",
+      "changeHash": "0.41144350019092424"
+    }
+  },
+  "qMetaDef": {
+    "title": "cuenca",
+    "description": "",
+    "tags": []
+  }
+}

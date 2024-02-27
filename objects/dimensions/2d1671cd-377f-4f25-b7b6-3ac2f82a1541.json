@@ -1,0 +1,26 @@
+{
+  "qInfo": {
+    "qId": "2d1671cd-377f-4f25-b7b6-3ac2f82a1541",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "clasificacion"
+    ],
+    "qFieldLabels": [
+      "clasificacion"
+    ],
+    "qLabelExpression": "='Clasificación'",
+    "title": "clasificacion",
+    "coloring": {
+      "colorMapRef": "tBMNcqu",
+      "changeHash": "0.40755396053851056"
+    }
+  },
+  "qMetaDef": {
+    "title": "clasificacion",
+    "description": "",
+    "tags": []
+  }
+}

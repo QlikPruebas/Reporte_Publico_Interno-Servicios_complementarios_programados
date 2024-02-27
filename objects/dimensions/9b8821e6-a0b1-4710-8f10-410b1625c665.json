@@ -1,0 +1,26 @@
+{
+  "qInfo": {
+    "qId": "9b8821e6-a0b1-4710-8f10-410b1625c665",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "barra_centrales"
+    ],
+    "qFieldLabels": [
+      "barra_centrales"
+    ],
+    "qLabelExpression": "='Barra'",
+    "title": "barra_centrales",
+    "coloring": {
+      "colorMapRef": "tBMNcqu",
+      "changeHash": "0.27310089283275096"
+    }
+  },
+  "qMetaDef": {
+    "title": "barra_centrales",
+    "description": "",
+    "tags": []
+  }
+}

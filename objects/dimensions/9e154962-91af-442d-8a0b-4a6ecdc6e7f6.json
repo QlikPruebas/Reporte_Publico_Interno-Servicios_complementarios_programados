@@ -1,0 +1,26 @@
+{
+  "qInfo": {
+    "qId": "9e154962-91af-442d-8a0b-4a6ecdc6e7f6",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "numero_version"
+    ],
+    "qFieldLabels": [
+      "numero_version"
+    ],
+    "qLabelExpression": "='Versión PRG'",
+    "title": "numero_version",
+    "coloring": {
+      "colorMapRef": "tBMNcqu",
+      "changeHash": "0.3639498521774307"
+    }
+  },
+  "qMetaDef": {
+    "title": "numero_version",
+    "description": "",
+    "tags": []
+  }
+}

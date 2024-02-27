@@ -1,0 +1,26 @@
+{
+  "qInfo": {
+    "qId": "6d019e6a-2ed1-4a07-9955-a4e05515f528",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "nombre_central"
+    ],
+    "qFieldLabels": [
+      "nombre_central"
+    ],
+    "qLabelExpression": "='Central'",
+    "title": "nombre_central",
+    "coloring": {
+      "colorMapRef": "YNAAPg",
+      "changeHash": "0.1193223312575673"
+    }
+  },
+  "qMetaDef": {
+    "title": "nombre_central",
+    "description": "",
+    "tags": []
+  }
+}

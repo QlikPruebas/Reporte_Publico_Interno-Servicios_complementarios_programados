@@ -1,0 +1,25 @@
+{
+  "qInfo": {
+    "qId": "maFhA",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "MesAño"
+    ],
+    "qFieldLabels": [
+      "MesAño"
+    ],
+    "qLabelExpression": "='MesAño'",
+    "title": "MesAño",
+    "coloring": {
+      "changeHash": "0.48325597104775997"
+    }
+  },
+  "qMetaDef": {
+    "title": "MesAño",
+    "description": "",
+    "tags": []
+  }
+}

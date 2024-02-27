@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "0b78b1fc-a76b-477b-b960-86c1484b739f",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vCondicionSinFiltros",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "GetSelectedCount(Año)=0 AND GetSelectedCount(Mes)=0",
+  "tags": []
+}

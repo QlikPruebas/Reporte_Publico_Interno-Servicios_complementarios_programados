@@ -1,0 +1,26 @@
+{
+  "qInfo": {
+    "qId": "CMDQd",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "SSCC_SERVICIO"
+    ],
+    "qFieldLabels": [
+      "SSCC Servicio"
+    ],
+    "qLabelExpression": "='SSCC Servicio'",
+    "title": "SSCC Servicio",
+    "coloring": {
+      "changeHash": "0.933528951359951",
+      "colorMapRef": "CMDQd"
+    }
+  },
+  "qMetaDef": {
+    "title": "SSCC Servicio",
+    "description": "",
+    "tags": []
+  }
+}

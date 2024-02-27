@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "6c9396e4-f97b-4857-8ef2-003f1511c551",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vFechaSinFiltros",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "{<0>}",
+  "tags": []
+}

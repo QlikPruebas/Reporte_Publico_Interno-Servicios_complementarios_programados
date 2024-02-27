@@ -1,0 +1,26 @@
+{
+  "qInfo": {
+    "qId": "psNvBjH",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "Fecha_Hora"
+    ],
+    "qFieldLabels": [
+      "Fecha_Hora"
+    ],
+    "qLabelExpression": "='Fecha Hora'",
+    "title": "Fecha_Hora",
+    "coloring": {
+      "changeHash": "0.16026251564332106",
+      "colorMapRef": "psNvBjH"
+    }
+  },
+  "qMetaDef": {
+    "title": "Fecha_Hora",
+    "description": "",
+    "tags": []
+  }
+}

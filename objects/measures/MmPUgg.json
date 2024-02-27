@@ -1,0 +1,25 @@
+{
+  "qInfo": {
+    "qId": "MmPUgg",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Provision Total (MW) Sin Fuentes",
+    "qDef": "SUM(\t\r\n\t$(=    \tIF(GetSelectedCount(Año)=0 AND GetSelectedCount(Mes)=0 AND GetSelectedCount(barra_centrales) = 0 AND GetSelectedCount(Fecha) = 0, \n\t\t\t\t\tvUltimaFecha,\n                \t''    \t\n                )    \n    )cantidad_mw\n    \n )\n",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qLabelExpression": "='Provision Total (MW)'",
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "coloring": {}
+  },
+  "qMetaDef": {
+    "title": "Provision Total (MW) Sin Fuentes",
+    "description": "",
+    "tags": []
+  }
+}

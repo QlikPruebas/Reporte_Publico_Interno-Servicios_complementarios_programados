@@ -1,0 +1,25 @@
+{
+  "qInfo": {
+    "qId": "QPAnRgz",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "Dia"
+    ],
+    "qFieldLabels": [
+      "Dia"
+    ],
+    "qLabelExpression": "='Día'",
+    "title": "Dia",
+    "coloring": {
+      "changeHash": "0.7136308203281079"
+    }
+  },
+  "qMetaDef": {
+    "title": "Dia",
+    "description": "",
+    "tags": []
+  }
+}

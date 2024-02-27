@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "31d5f3f3-bdd0-4c71-91df-3e890f75791a",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vUltimaFecha",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "{<Fecha = {\"$(=MAX(Fecha))\"}>}",
+  "tags": []
+}

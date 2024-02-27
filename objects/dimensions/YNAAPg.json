@@ -1,0 +1,96 @@
+{
+  "qInfo": {
+    "qId": "YNAAPg",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "tecnologia"
+    ],
+    "qFieldLabels": [
+      "tecnologia"
+    ],
+    "qLabelExpression": "='Tecnología'",
+    "title": "tecnologia",
+    "coloring": {
+      "changeHash": "0.2067449044198737",
+      "colorMapRef": "YNAAPg"
+    }
+  },
+  "qMetaDef": {
+    "title": "tecnologia",
+    "description": "",
+    "tags": []
+  },
+  "_ColorMapModel": {
+    "qInfo": {
+      "qId": "ColorMapModel_YNAAPg",
+      "qType": "ColorMap"
+    },
+    "qMeta": {
+      "title": "",
+      "description": "",
+      "createdDate": "2023-12-14T18:44:38.024Z",
+      "modifiedDate": "2023-12-14T18:44:38.102Z",
+      "published": true,
+      "publishTime": "2023-12-14T18:44:38.071Z",
+      "approved": true,
+      "qSize": -1,
+      "sourceObject": "",
+      "draftObject": ""
+    },
+    "colorMap": {
+      "colors": [
+        {
+          "value": "",
+          "baseColor": {
+            "color": "#10cfc9",
+            "index": 5
+          }
+        },
+        {
+          "value": "EOLICAS",
+          "baseColor": {
+            "color": "#669E40",
+            "index": -1
+          }
+        },
+        {
+          "value": "GEOTERMICA",
+          "baseColor": {
+            "color": "#405168",
+            "index": -1
+          }
+        },
+        {
+          "value": "HIDROELECTRICAS",
+          "baseColor": {
+            "color": "#0070C0",
+            "index": -1
+          }
+        },
+        {
+          "value": "SOLARES",
+          "baseColor": {
+            "color": "#F2B800",
+            "index": -1
+          }
+        },
+        {
+          "value": "TERMOELECTRICAS",
+          "baseColor": {
+            "color": "#DB5503",
+            "index": -1
+          }
+        }
+      ],
+      "nul": null,
+      "oth": null,
+      "pal": null,
+      "single": null,
+      "usePal": true,
+      "autoFill": true
+    }
+  }
+}

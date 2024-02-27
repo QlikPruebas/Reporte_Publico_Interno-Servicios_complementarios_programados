@@ -1,0 +1,26 @@
+{
+  "qInfo": {
+    "qId": "2e15160e-4287-469b-9032-577dfa905c6c",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "configuracion"
+    ],
+    "qFieldLabels": [
+      "configuracion"
+    ],
+    "qLabelExpression": "='Configuración'",
+    "title": "configuracion",
+    "coloring": {
+      "colorMapRef": "tBMNcqu",
+      "changeHash": "0.7709385440399887"
+    }
+  },
+  "qMetaDef": {
+    "title": "configuracion",
+    "description": "",
+    "tags": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "qInfo": {
+    "qId": "dpXjPg",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "H",
+    "qFieldDefs": [
+      "=\r\nIF(GetSelectedCount(Año)=0 AND GetSelectedCount(Mes)=0,\n\tFecha,\n    IF(GetSelectedCount(Año)=0 AND GetSelectedCount(Mes)>0,\n    \t[MesAño],\n        Año\n    )\n)",
+      "=IF(GetSelectedCount(Año)=0 AND GetSelectedCount(Mes)=0,Fecha,MesAño)",
+      "Fecha",
+      "Hora"
+    ],
+    "qFieldLabels": [],
+    "qLabelExpression": "='Fecha'",
+    "title": "Año-Mes-Dia",
+    "coloring": {
+      "changeHash": "0.20179493846958474",
+      "colorMapRef": "dpXjPg"
+    }
+  },
+  "qMetaDef": {
+    "title": "Año-Mes-Dia",
+    "description": "",
+    "tags": []
+  }
+}

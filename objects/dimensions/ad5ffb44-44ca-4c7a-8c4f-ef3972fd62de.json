@@ -1,0 +1,26 @@
+{
+  "qInfo": {
+    "qId": "ad5ffb44-44ca-4c7a-8c4f-ef3972fd62de",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "comuna"
+    ],
+    "qFieldLabels": [
+      "comuna"
+    ],
+    "qLabelExpression": "='Comuna'",
+    "title": "comuna",
+    "coloring": {
+      "colorMapRef": "tBMNcqu",
+      "changeHash": "0.33956138141629655"
+    }
+  },
+  "qMetaDef": {
+    "title": "comuna",
+    "description": "",
+    "tags": []
+  }
+}

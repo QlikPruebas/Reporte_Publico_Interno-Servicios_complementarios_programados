@@ -1,0 +1,166 @@
+{
+  "qInfo": {
+    "qId": "16d0b459-8c68-4c4e-b932-e7d0e9bef0a8",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "sub_tipo_tecnologia"
+    ],
+    "qFieldLabels": [
+      "sub_tipo_tecnologia"
+    ],
+    "qLabelExpression": "='Sub-Tipo Tecnología'",
+    "title": "sub_tipo_tecnologia",
+    "coloring": {
+      "colorMapRef": "16d0b459-8c68-4c4e-b932-e7d0e9bef0a8",
+      "changeHash": "0.5795401535027431"
+    }
+  },
+  "qMetaDef": {
+    "title": "sub_tipo_tecnologia",
+    "description": "",
+    "tags": []
+  },
+  "_ColorMapModel": {
+    "qInfo": {
+      "qId": "ColorMapModel_16d0b459-8c68-4c4e-b932-e7d0e9bef0a8",
+      "qType": "ColorMap"
+    },
+    "qMeta": {
+      "title": "",
+      "description": "",
+      "createdDate": "2023-12-14T18:44:38.024Z",
+      "modifiedDate": "2023-12-14T18:44:38.102Z",
+      "published": true,
+      "publishTime": "2023-12-14T18:44:38.040Z",
+      "approved": true,
+      "qSize": -1,
+      "sourceObject": "",
+      "draftObject": ""
+    },
+    "colorMap": {
+      "colors": [
+        {
+          "value": "",
+          "baseColor": {
+            "color": "#10cfc9",
+            "index": 5
+          }
+        },
+        {
+          "value": "GEOTERMICA",
+          "baseColor": {
+            "color": "#405168",
+            "index": -1
+          }
+        },
+        {
+          "value": "HIDROELECTRICA DE EMBALSE",
+          "baseColor": {
+            "color": "#7698D4",
+            "index": -1
+          }
+        },
+        {
+          "value": "HIDROELECTRICA DE PASADA",
+          "baseColor": {
+            "color": "#508CFA",
+            "index": -1
+          }
+        },
+        {
+          "value": "MINIHIDRO DE PASADA",
+          "baseColor": {
+            "color": "#508CFA",
+            "index": -1
+          }
+        },
+        {
+          "value": "MOTOR DE COMBUSTION INTERNA",
+          "baseColor": {
+            "color": "#7030A0",
+            "index": -1
+          }
+        },
+        {
+          "value": "PARQUE EOLICO",
+          "baseColor": {
+            "color": "#669E40",
+            "index": -1
+          }
+        },
+        {
+          "value": "PARQUE FOTOVOLTAICO",
+          "baseColor": {
+            "color": "#F2B800",
+            "index": -1
+          }
+        },
+        {
+          "value": "PARQUE FOTOVOLTAICO CON ALMACENAMIENTO",
+          "baseColor": {
+            "color": "#F2B800",
+            "index": -1
+          }
+        },
+        {
+          "value": "TERMOSOLAR DE CONCENTRACION",
+          "baseColor": {
+            "color": "#FF3333",
+            "index": -1
+          }
+        },
+        {
+          "value": "TERMOELECTRICA DE CICLO COMBINADO",
+          "baseColor": {
+            "color": "#DB5503",
+            "index": -1
+          }
+        },
+        {
+          "value": "TERMOELECTRICA DE CICLO COMBINADO / TERMOELECTRICA DE TURBINA A VAPOR",
+          "baseColor": {
+            "color": "#DB5503",
+            "index": -1
+          }
+        },
+        {
+          "value": "TERMOELECTRICA DE CICLO COMBINADO / TERMOELECTRICA DE TURBINA A VAPOR/ TERMOELECTRICA DE TURBINA A GAS",
+          "baseColor": {
+            "color": "#DB5503",
+            "index": -1
+          }
+        },
+        {
+          "value": "TERMOELECTRICA DE TURBINA A GAS",
+          "baseColor": {
+            "color": "#DB5503",
+            "index": -1
+          }
+        },
+        {
+          "value": "TERMOELECTRICA DE TURBINA A GAS / MOTOR DE COMBUSTION INTERNA",
+          "baseColor": {
+            "color": "#DB5503",
+            "index": -1
+          }
+        },
+        {
+          "value": "TERMOELECTRICA DE TURBINA A VAPOR",
+          "baseColor": {
+            "color": "#DB5503",
+            "index": -1
+          }
+        }
+      ],
+      "nul": null,
+      "oth": null,
+      "pal": null,
+      "single": null,
+      "usePal": true,
+      "autoFill": true
+    }
+  }
+}

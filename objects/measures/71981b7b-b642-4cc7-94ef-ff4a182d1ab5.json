@@ -1,0 +1,35 @@
+{
+  "qInfo": {
+    "qId": "71981b7b-b642-4cc7-94ef-ff4a182d1ab5",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Provisión Total (MW) - PCP",
+    "qDef": "SUM(\t$(=    \tIF(GetSelectedCount(Año)=0 AND GetSelectedCount(Mes)=0 AND GetSelectedCount(barra_centrales) = 0 AND GetSelectedCount(Fecha) = 0 AND GetSelectedCount(Fecha_Efectiva)=0 AND GetSelectedCount(fecha_version)=0,    \tvUltimaFechaPCP,''    \t)    )cantidad_mw)",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qLabelExpression": "='Provisión Total (MW) - PCP'",
+    "qNumFormat": {
+      "qType": "F",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qFmt": "#,##0",
+      "qDec": ".",
+      "qThou": ","
+    },
+    "numFormatFromTemplate": false,
+    "coloring": {
+      "baseColor": {
+        "color": "#006580",
+        "index": 6
+      }
+    },
+    "isCustomFormatted": false
+  },
+  "qMetaDef": {
+    "title": "Provisión Total (MW) - PCP",
+    "description": "",
+    "tags": []
+  }
+}

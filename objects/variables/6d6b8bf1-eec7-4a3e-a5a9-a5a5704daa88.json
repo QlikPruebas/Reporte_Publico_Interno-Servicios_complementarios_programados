@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "6d6b8bf1-eec7-4a3e-a5a9-a5a5704daa88",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vCondicionMensajeErrorPID",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "GetSelectedCount(fecha_version)=1 AND  GetPossibleCount(fecha_hora_version)=2",
+  "tags": []
+}

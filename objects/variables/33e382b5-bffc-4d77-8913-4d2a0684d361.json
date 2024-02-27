@@ -1,0 +1,14 @@
+{
+  "qInfo": {
+    "qId": "33e382b5-bffc-4d77-8913-4d2a0684d361",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "currentName",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "CSF_LW"
+}

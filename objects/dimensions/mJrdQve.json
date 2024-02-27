@@ -1,0 +1,68 @@
+{
+  "qInfo": {
+    "qId": "mJrdQve",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "fuente"
+    ],
+    "qFieldLabels": [
+      "Fuente"
+    ],
+    "qLabelExpression": "='Fuente'",
+    "title": "Fuente",
+    "coloring": {
+      "changeHash": "0.8396045896627553",
+      "colorMapRef": "mJrdQve"
+    }
+  },
+  "qMetaDef": {
+    "title": "Fuente",
+    "description": "",
+    "tags": []
+  },
+  "_ColorMapModel": {
+    "qInfo": {
+      "qId": "ColorMapModel_mJrdQve",
+      "qType": "ColorMap"
+    },
+    "qMeta": {
+      "title": "",
+      "description": "",
+      "createdDate": "2023-12-18T12:10:48.417Z",
+      "modifiedDate": "2023-12-18T12:10:48.526Z",
+      "published": true,
+      "publishTime": "2023-12-18T12:10:48.495Z",
+      "approved": true,
+      "qSize": -1,
+      "sourceObject": "",
+      "draftObject": ""
+    },
+    "colorMap": {
+      "colors": [
+        {
+          "value": "PID",
+          "baseColor": {
+            "color": "#F39C12",
+            "index": -1
+          }
+        },
+        {
+          "value": "PCP",
+          "baseColor": {
+            "color": "#5499C7",
+            "index": -1
+          }
+        }
+      ],
+      "nul": null,
+      "oth": null,
+      "pal": null,
+      "single": null,
+      "usePal": true,
+      "autoFill": true
+    }
+  }
+}

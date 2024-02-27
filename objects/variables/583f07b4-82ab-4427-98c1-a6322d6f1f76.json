@@ -1,0 +1,14 @@
+{
+  "qInfo": {
+    "qId": "583f07b4-82ab-4427-98c1-a6322d6f1f76",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "varMinDate",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "44743"
+}

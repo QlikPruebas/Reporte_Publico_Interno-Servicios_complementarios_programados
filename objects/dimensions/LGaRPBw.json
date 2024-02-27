@@ -1,0 +1,26 @@
+{
+  "qInfo": {
+    "qId": "LGaRPBw",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "fecha_version"
+    ],
+    "qFieldLabels": [
+      "Fecha Versión"
+    ],
+    "qLabelExpression": "='Fecha Versión'",
+    "title": "Fecha Versión",
+    "coloring": {
+      "changeHash": "0.5818150072277579",
+      "colorMapRef": "LGaRPBw"
+    }
+  },
+  "qMetaDef": {
+    "title": "Fecha Versión",
+    "description": "",
+    "tags": []
+  }
+}

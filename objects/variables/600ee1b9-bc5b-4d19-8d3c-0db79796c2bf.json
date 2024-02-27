@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "600ee1b9-bc5b-4d19-8d3c-0db79796c2bf",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vUltimaFechaPID",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "{<fuente = {'PID'}, Fecha = {\">=$(=DATE(MAX(Fecha)-1))\"},fecha_hora_version = {\"$(=MAX({<fuente = {'PID'}>}fecha_hora_version))\"}>}",
+  "tags": []
+}

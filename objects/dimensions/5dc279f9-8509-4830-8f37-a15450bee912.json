@@ -1,0 +1,26 @@
+{
+  "qInfo": {
+    "qId": "5dc279f9-8509-4830-8f37-a15450bee912",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "Fecha_Efectiva"
+    ],
+    "qFieldLabels": [
+      "Fecha"
+    ],
+    "qLabelExpression": "='Fecha'",
+    "title": "Fecha",
+    "coloring": {
+      "colorMapRef": "5dc279f9-8509-4830-8f37-a15450bee912",
+      "changeHash": "0.9544694511736831"
+    }
+  },
+  "qMetaDef": {
+    "title": "Fecha",
+    "description": "",
+    "tags": []
+  }
+}

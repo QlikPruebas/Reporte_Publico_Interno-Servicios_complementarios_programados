@@ -1,0 +1,26 @@
+{
+  "qInfo": {
+    "qId": "6574d1ea-c23d-4902-a633-d6b2eca32cfe",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "Hora"
+    ],
+    "qFieldLabels": [
+      "Hora"
+    ],
+    "qLabelExpression": "='Hora'",
+    "title": "Hora",
+    "coloring": {
+      "colorMapRef": "QPAnRgz",
+      "changeHash": "0.9327029595855376"
+    }
+  },
+  "qMetaDef": {
+    "title": "Hora",
+    "description": "",
+    "tags": []
+  }
+}

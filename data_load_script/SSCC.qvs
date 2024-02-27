@@ -1,0 +1,25 @@
+///$tab SSCC
+SERVICIOS_COMPLEMENTARIOS:
+LOAD
+    %KEY_BLOQUE_FUENTE_VERSION,
+    AutoNumber(%KEY_DICCIONARIO_CENTRALES)	AS %KEY_DICCIONARIO_CENTRALES,
+    %KEY_DICCIONARIO_CENTRALES				AS Diccionario,
+    Fecha_Hora,
+    Fecha_Efectiva,
+    Fecha,
+    AñoMesNum,
+    MesAño,
+    Mes,
+    Año,
+    Semana,
+    Dia,
+    Hora,
+    SSCC_SERVICIO,
+    SSCC_SERVICIO_DESC,
+    provision_mw	                         AS cantidad_mw,
+    fuente,
+    fecha_version,
+    fecha_hora_version,
+    numero_version
+FROM [lib://STG/PLATAFORMA PROGRAMACION/STG_PRG_SERVICIOS_COMPLEMENTARIOS.qvd]
+(qvd);

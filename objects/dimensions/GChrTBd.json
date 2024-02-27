@@ -1,0 +1,25 @@
+{
+  "qInfo": {
+    "qId": "GChrTBd",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "=IF(GetSelectedCount(Año)=0 AND GetSelectedCount(Mes)=0,Fecha,MesAño)"
+    ],
+    "qFieldLabels": [
+      "Mes"
+    ],
+    "qLabelExpression": "='Mes'",
+    "title": "Mes",
+    "coloring": {
+      "changeHash": "0.8242919045229333"
+    }
+  },
+  "qMetaDef": {
+    "title": "Mes",
+    "description": "",
+    "tags": []
+  }
+}

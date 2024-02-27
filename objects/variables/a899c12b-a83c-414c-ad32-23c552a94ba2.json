@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "a899c12b-a83c-414c-ad32-23c552a94ba2",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vUltimaFechaPCP",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "{<fuente = {'PCP'}, Fecha = {\">=$(=DATE(MAX({<fecha_hora_version>}Fecha)))\"},fecha_hora_version>}",
+  "tags": []
+}

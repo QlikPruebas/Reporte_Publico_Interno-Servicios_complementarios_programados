@@ -1,0 +1,26 @@
+{
+  "qInfo": {
+    "qId": "942e9d0c-afeb-431a-9a30-6926183e2bed",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "region"
+    ],
+    "qFieldLabels": [
+      "region"
+    ],
+    "qLabelExpression": "='Region'",
+    "title": "region",
+    "coloring": {
+      "colorMapRef": "tBMNcqu",
+      "changeHash": "0.27576117854236837"
+    }
+  },
+  "qMetaDef": {
+    "title": "region",
+    "description": "",
+    "tags": []
+  }
+}

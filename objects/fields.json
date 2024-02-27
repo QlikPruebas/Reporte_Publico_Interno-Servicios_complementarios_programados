@@ -1,0 +1,420 @@
+[
+  {
+    "qName": "%KEY_BLOQUE_FUENTE_VERSION",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "SERVICIOS_COMPLEMENTARIOS"
+    ]
+  },
+  {
+    "qName": "%KEY_DICCIONARIO_CENTRALES",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "SERVICIOS_COMPLEMENTARIOS",
+      "DIM_CENTRALES"
+    ]
+  },
+  {
+    "qName": "Año",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SERVICIOS_COMPLEMENTARIOS"
+    ]
+  },
+  {
+    "qName": "AñoMesNum",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SERVICIOS_COMPLEMENTARIOS"
+    ]
+  },
+  {
+    "qName": "Dia",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SERVICIOS_COMPLEMENTARIOS"
+    ]
+  },
+  {
+    "qName": "Diccionario",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "SERVICIOS_COMPLEMENTARIOS"
+    ]
+  },
+  {
+    "qName": "Fecha",
+    "qTags": [
+      "$numeric",
+      "$timestamp",
+      "$integer",
+      "$date"
+    ],
+    "qSrcTables": [
+      "SERVICIOS_COMPLEMENTARIOS"
+    ]
+  },
+  {
+    "qName": "Fecha_Efectiva",
+    "qTags": [
+      "$numeric",
+      "$timestamp",
+      "$integer",
+      "$date"
+    ],
+    "qSrcTables": [
+      "SERVICIOS_COMPLEMENTARIOS"
+    ]
+  },
+  {
+    "qName": "Fecha_Hora",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "SERVICIOS_COMPLEMENTARIOS"
+    ]
+  },
+  {
+    "qName": "Hora",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SERVICIOS_COMPLEMENTARIOS"
+    ]
+  },
+  {
+    "qName": "Mes",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SERVICIOS_COMPLEMENTARIOS"
+    ]
+  },
+  {
+    "qName": "MesAño",
+    "qTags": [
+      "$numeric",
+      "$timestamp",
+      "$integer",
+      "$date"
+    ],
+    "qSrcTables": [
+      "SERVICIOS_COMPLEMENTARIOS"
+    ]
+  },
+  {
+    "qName": "SSCC_SERVICIO",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "SERVICIOS_COMPLEMENTARIOS"
+    ]
+  },
+  {
+    "qName": "SSCC_SERVICIO_DESC",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "SERVICIOS_COMPLEMENTARIOS"
+    ]
+  },
+  {
+    "qName": "Semana",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SERVICIOS_COMPLEMENTARIOS"
+    ]
+  },
+  {
+    "qName": "almacenamiento",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "DIM_CENTRALES"
+    ]
+  },
+  {
+    "qName": "arreglo",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "DIM_CENTRALES"
+    ]
+  },
+  {
+    "qName": "barra_centrales",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "DIM_CENTRALES"
+    ]
+  },
+  {
+    "qName": "bloque_centrales",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "DIM_CENTRALES"
+    ]
+  },
+  {
+    "qName": "cantidad_mw",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "SERVICIOS_COMPLEMENTARIOS"
+    ]
+  },
+  {
+    "qName": "clasificacion",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "DIM_CENTRALES"
+    ]
+  },
+  {
+    "qName": "combustible",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "DIM_CENTRALES"
+    ]
+  },
+  {
+    "qName": "comuna",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "DIM_CENTRALES"
+    ]
+  },
+  {
+    "qName": "configuracion",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "DIM_CENTRALES"
+    ]
+  },
+  {
+    "qName": "cuenca",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "DIM_CENTRALES"
+    ]
+  },
+  {
+    "qName": "empresa",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "DIM_CENTRALES"
+    ]
+  },
+  {
+    "qName": "fecha_hora_version",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "SERVICIOS_COMPLEMENTARIOS"
+    ]
+  },
+  {
+    "qName": "fecha_version",
+    "qTags": [
+      "$numeric",
+      "$timestamp",
+      "$integer",
+      "$date"
+    ],
+    "qSrcTables": [
+      "SERVICIOS_COMPLEMENTARIOS"
+    ]
+  },
+  {
+    "qName": "ficticia",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "DIM_CENTRALES"
+    ]
+  },
+  {
+    "qName": "fuente",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "SERVICIOS_COMPLEMENTARIOS"
+    ]
+  },
+  {
+    "qName": "id_central_it",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "DIM_CENTRALES"
+    ]
+  },
+  {
+    "qName": "nombre_central",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "DIM_CENTRALES"
+    ]
+  },
+  {
+    "qName": "numero_version",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SERVICIOS_COMPLEMENTARIOS"
+    ]
+  },
+  {
+    "qName": "origen_diccionario",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "DIM_CENTRALES"
+    ]
+  },
+  {
+    "qName": "pais",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "DIM_CENTRALES"
+    ]
+  },
+  {
+    "qName": "region",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "DIM_CENTRALES"
+    ]
+  },
+  {
+    "qName": "sub_tipo_tecnologia",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "DIM_CENTRALES"
+    ]
+  },
+  {
+    "qName": "tecnologia",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "DIM_CENTRALES"
+    ]
+  },
+  {
+    "qName": "terminal_gnl",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "DIM_CENTRALES"
+    ]
+  },
+  {
+    "qName": "unidades_centrales",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "DIM_CENTRALES"
+    ]
+  },
+  {
+    "qName": "zona",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "DIM_CENTRALES"
+    ]
+  }
+]

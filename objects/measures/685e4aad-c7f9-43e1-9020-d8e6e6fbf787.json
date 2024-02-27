@@ -1,0 +1,35 @@
+{
+  "qInfo": {
+    "qId": "685e4aad-c7f9-43e1-9020-d8e6e6fbf787",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Comparación - Provisión Total (MW)",
+    "qDef": "SUM(\t$(=    \tIF(GetSelectedCount(Año)=0 AND GetSelectedCount(Mes)=0 AND GetSelectedCount(barra_centrales) = 0 AND GetSelectedCount(fecha_version)=0,    \tvUltimaFechaComparacion,''    \t)    )cantidad_mw)",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qLabelExpression": "='Provisión Total (MW)'",
+    "qNumFormat": {
+      "qType": "F",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qFmt": "#,##0",
+      "qDec": ".",
+      "qThou": ","
+    },
+    "numFormatFromTemplate": false,
+    "coloring": {
+      "baseColor": {
+        "color": "#006580",
+        "index": 6
+      }
+    },
+    "isCustomFormatted": false
+  },
+  "qMetaDef": {
+    "title": "Comparación - Provisión Total (MW)",
+    "description": "",
+    "tags": []
+  }
+}
